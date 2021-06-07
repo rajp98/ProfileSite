@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=KoHo");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+/*This sets the height and background color of the navbar*/
+body{
+    margin: 0;
+}
+
+.nav{
+    height: auto;
+    background: navy;
+    overflow: hidden;
+}
+
+.nav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.nav a:hover{
+    background-color: lightblue;
+    color: black;
+}
+
+.nav a.active{
+    background-color: lightblue;
+    color: black;
+}
+
+.home{
+    background: url("../images/background_image2.jpg");
+    background-size: auto;
+    height: 100vh;
+}
+.about{
+    background: url("../images/background_image2.jpg");
+    background-size: auto;
+    height: 100vh;
+}
+.projects{
+    background: url("../images/background_image2.jpg");
+    background-size: auto;
+    height: 100vh;
+}
+.contact{
+    background: url("../images/background_image2.jpg");
+    background-size: auto;
+    height: 100vh;
+}
+
+
+/*//////////////////////////////////////////////////////////*/
+.home .text-container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.home .text-container div h1{
+    color: whitesmoke;
+    font-size: 60px;
+}
+
+.home .text-container div h2{
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+/*///////////////////////////////////////////////////////////*/
+.about-content{
+    margin: 150px auto 0 auto;
+    width: 500px;
+}
+.about-content h1{
+    font-family: "KoHo", sans-serif;
+    text-align: center;
+    padding-left: 10px;
+    color: red;
+}
+
+.about-content p{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: auto;
+    padding-left: 10px;
+    color: white;
+}
+
+
+/*//////////////////////////////////////////////////////////*/
+.project-content h1{
+    color: red;
+    margin: 100px auto 0 auto;
+    text-align: center;
+    font-family: "KoHo", sans-serif;
+}
+
+.project-content p{
+    color: white;
+    text-align: center;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.project-list ul{
+    padding-left: 210px;
+    padding-right: 200px;
+}
+
+.project-list{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    text-align: justify;
+    text-justify: auto;
+    font-family: "Comfortaa", sans-serif;
+}
+
+/*///////////////////////////////////////////////////////*/
+
+.contact-info h1{
+    color: red;
+    margin: 100px auto 0 auto; 
+    text-align: center;
+    font-family: "KoHo", sans-serif;
+}
+
+.address-info{
+    color: white;
+    text-align: center;
+    font-family: "Comfortaa", sans-serif;
+}
